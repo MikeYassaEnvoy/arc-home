@@ -122,9 +122,12 @@ everywhere; nothing ever requires a photo or a parent password.
 *(No second floor? Rename it in your head — any bedroom + hallway works; the app never checks.)*
 
 **Leg 3 · Stop 1 — 📍 Route Marker: Your Bedroom**
-- Clue says: "Race up to your own bedroom. Become a detective in your own room. Find all five things on the list."
+- Clue says: "Race up to your own bedroom. First be a detective and find five things. Then clean the room until it passes hotel inspection!"
 - **Bedroom Detective** (scavenger · 15 pts) — Your own room is the crime scene. Find each thing on the list. Tap to check it off.
   - List: Something from the Québec trip · The oldest toy you own · Something you made yourself · The softest thing in the room · Something you have not played with in ages
+- **Hotel Room Inspection** (physical · 20 pts · stopwatch target 10:00) — Clean your room until it looks like a hotel room. Beat ten minutes on the clock. Then a parent inspector does the white-glove check!
+  - List: Clothes in the hamper or the drawers · Toys back in their homes · Nothing left on the floor · Desk or dresser top tidied · Passed the inspector's white-glove check!
+  - 📸 Show off your sparkling room!
 
 **Leg 3 · Stop 2 — 🔀 DETOUR — choose ONE branch: The Upstairs Hallway**
 - Clue says: "This is a Detour: pick Build or Books. Build a rolling machine, or hunt six special books. Choose the one you will be best at!"
@@ -148,7 +151,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **Leg 3 · Pit Stop — 🏁 Pit Stop: Top of the Stairs Mat**
 - **Mat: 1st — FIRST WIN**, confetti; **The Tide Riders eliminated** (found asleep in a blanket fort). Badges: 🧦 Sock Ninja + ⭐ First Win.
 
-**Prep:** Dump **at least 8 matchable sock pairs** in a pile before the roadblock (mix in a few odd socks for difficulty). The detour needs either a Lego/blocks bin (Build) or a bookshelf (Books) — both branches score the same, let him choose. This is the comeback leg: first place, first win of the season.
+**Prep:** Dump **at least 8 matchable sock pairs** in a pile before the roadblock (mix in a few odd socks for difficulty). The detour needs either a Lego/blocks bin (Build) or a bookshelf (Books) — both branches score the same, let him choose. For **Hotel Room Inspection** you play the white-glove inspector: tour the room slowly, hum disapprovingly, run one finger along a shelf, then declare it five stars. The messier the room going in, the better this one works. This is the comeback leg: first place, first win of the season.
 
 ## Leg 4 — The Couch 500 (Upstairs → Living Room)
 

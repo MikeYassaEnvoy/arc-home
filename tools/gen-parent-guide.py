@@ -96,8 +96,12 @@ LEGS = {
         prep="Dump **at least 8 matchable sock pairs** in a pile before the "
              "roadblock (mix in a few odd socks for difficulty). The detour "
              "needs either a Lego/blocks bin (Build) or a bookshelf (Books) "
-             "— both branches score the same, let him choose. This is the "
-             "comeback leg: first place, first win of the season.",
+             "— both branches score the same, let him choose. For **Hotel "
+             "Room Inspection** you play the white-glove inspector: tour the "
+             "room slowly, hum disapprovingly, run one finger along a shelf, "
+             "then declare it five stars. The messier the room going in, the "
+             "better this one works. This is the comeback leg: first place, "
+             "first win of the season.",
         mat="**Mat: 1st — FIRST WIN**, confetti; **The Tide Riders "
             "eliminated** (found asleep in a blanket fort). "
             "Badges: 🧦 Sock Ninja + ⭐ First Win.",

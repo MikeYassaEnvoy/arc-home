@@ -10,8 +10,8 @@
       "kind": "route-marker",
       "location": "Your Bedroom",
       "scheduledTime": "Leg 3 · Stop 1",
-      "clueRiddle": "Climb to the room where you dream at night.\nFive secrets hide in plain sight.",
-      "clueReveal": "Race up to your own bedroom. Become a detective in your own room. Find all five things on the list.",
+      "clueRiddle": "Climb to the room where you dream at night.\nFive secrets hide in plain sight — then make it shine!",
+      "clueReveal": "Race up to your own bedroom. First be a detective and find five things. Then clean the room until it passes hotel inspection!",
       "challenges": [
         {
           "id": "l3-bedroom-detective",
@@ -26,6 +26,22 @@
             "Something you have not played with in ages"
           ],
           "points": 15
+        },
+        {
+          "id": "l3-hotel-inspection",
+          "type": "physical",
+          "title": "Hotel Room Inspection",
+          "instructions": "Clean your room until it looks like a hotel room. Beat ten minutes on the clock. Then a parent inspector does the white-glove check!",
+          "timerSeconds": 600,
+          "checklist": [
+            "Clothes in the hamper or the drawers",
+            "Toys back in their homes",
+            "Nothing left on the floor",
+            "Desk or dresser top tidied",
+            "Passed the inspector's white-glove check!"
+          ],
+          "photoPrompt": "Show off your sparkling room!",
+          "points": 20
         }
       ],
       "funFact": "Detectives say the best hiding spot is the most boring one."

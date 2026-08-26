@@ -19,10 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Creates/enables the Pages site for this repo if it isn't enabled yet.
+      # Requires Pages to be enabled once in the repo settings:
+      # Settings → Pages → Build and deployment → Source: "GitHub Actions".
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - uses: actions/setup-node@v4
         with:
           node-version: 20

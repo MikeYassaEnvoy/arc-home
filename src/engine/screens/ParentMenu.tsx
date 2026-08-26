@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { LEG_IDS, FINAL_LEG_ID, getLoadProblems, clearContentCache } from '../content';
 import { useRouter } from '../router';
-import { APP_VERSION, useRaceStore } from '../store';
+import { APP_VERSION, STORAGE_KEY, useRaceStore } from '../store';
 import { useAllLegs, useLeg } from '../useContent';
 import { LongPressButton } from '../ui/LongPressButton';
 import { clearAllPhotos } from '../photos';
@@ -63,11 +63,13 @@ export function ParentMenu() {
     await clearAllPhotos();
     clearContentCache();
     useRaceStore.getState().resetAll();
-    localStorage.removeItem('arc-yassa-race-state-v1');
-    // Mini-games keep their own side state under 'arc:' keys (e.g. road-bingo
-    // card stamps in arc:bingo:<cardId>) — a full wipe must clear those too.
+    localStorage.removeItem(STORAGE_KEY);
+    // Mini-games keep their own side state under 'arc-home:' keys (e.g. road-bingo
+    // card stamps in arc-home:bingo:<cardId>) — a full wipe must clear those too.
+    // Only this app's namespace: the old trip app shares this origin on GitHub
+    // Pages, and its save must survive a Home Edition reset.
     for (const key of Object.keys(localStorage)) {
-      if (key.startsWith('arc:')) localStorage.removeItem(key);
+      if (key.startsWith('arc-home:')) localStorage.removeItem(key);
     }
     reset({ name: 'onboarding' });
   };

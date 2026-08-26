@@ -55,7 +55,10 @@ function contentUrl(path: string): string {
 }
 
 function storageKey(cardId: string) {
-  return `arc:bingo:${cardId}`;
+  // 'arc-home:' namespace — the trip app shares this origin on GitHub Pages and
+  // also stamped an `arc:bingo:backyard` card; reusing its key would show last
+  // summer's stamps on a brand-new card.
+  return `arc-home:bingo:${cardId}`;
 }
 
 function loadStamps(cardId: string): boolean[] {

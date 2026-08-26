@@ -3,7 +3,10 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import type { Challenge, CompletedEntry, LegResult, PhotoRecord } from '../types';
 import { FIRST_LEG_ID, FINAL_LEG_ID } from './content';
 
-export const STORAGE_KEY = 'arc-yassa-race-state-v1';
+// Home Edition uses its own key: GitHub Pages serves every project from the same
+// origin, so localStorage is SHARED with the old trip app — reusing its key made
+// a fresh install wake up mid-way through the Québec season.
+export const STORAGE_KEY = 'arc-home-race-state-v1';
 export const APP_VERSION = '0.1.0';
 
 /** Leg 0 is the practice leg — its points never count toward the season total (§4). */

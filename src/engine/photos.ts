@@ -9,7 +9,9 @@ import { get as idbGet, set as idbSet, del as idbDel, keys as idbKeys, createSto
 export const MAX_EDGE = 1280;
 const JPEG_QUALITY = 0.82;
 
-const photoStore = createStore('arc-yassa-photos', 'photos');
+// Distinct DB name from the trip app (same origin on GitHub Pages), so the old
+// season's photos never bleed into this album or the Photo Finish puzzle.
+const photoStore = createStore('arc-home-photos', 'photos');
 
 export interface ResizedPhoto {
   blob: Blob;

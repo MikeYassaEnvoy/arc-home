@@ -179,16 +179,19 @@ everywhere; nothing ever requires a photo or a parent password.
   - 📸 Fancy café customer face!
 
 **Leg 4 · Stop 4 — 🚗 Drive: Couch Grand Prix — Heat Two**
-- Clue says: "Heat Two, back on the couch! Play Bagel Catch, then House Bingo. Then race to the living room mat."
+- Clue says: "Heat Two, back on the couch! Play Bagel Catch, then House Bingo. After the race, the track crew cleans the track!"
 - **Bagel Catch Championship** (minigame · 10 pts) — Slide the basket to catch falling bagels. Dodge the pigeons. Beat your best score from the trip!
   - Mini-game: `bagel-catch`
 - **House Bingo** (minigame · 10 pts) — A brand-new card of things inside the house. Spot each thing and tap its square. Four in a row wins!
   - Mini-game: `road-bingo` (card: house)
+- **Track Crew Cleanup** (physical · 15 pts · stopwatch target 5:00) — The race is over — the track crew takes the course apart. Find four games or toys in the living room. Pack each one up and put it away where it lives!
+  - List: First game packed up and put away · Second game packed up and put away · Third game packed up and put away · Fourth game packed up and put away · Couch cushions back in racing order
+  - 📸 Pit crew salute over the clean track!
 
 **Leg 4 · Pit Stop — 🏁 Pit Stop: The Living Room Mat**
 - **Mat: 2nd of 3** — the Rock Hoppers win the leg; **Team Maple eliminated** (last for the first time in two seasons). Badge: 🕹️ Arcade Ace.
 
-**Prep:** You have two cameo roles: snack recipient (Pit Crew Snack Run) and **French café waiter** — he orders "Un biscuit, s'il vous plaît" and you hand over a cookie with maximum Parisian dignity. Saying it aloud auto-awards 🇫🇷 French Speaker. The mat sets up the finale: Maple is finally out, and it's the Rock Hoppers rematch.
+**Prep:** You have two cameo roles: snack recipient (Pit Crew Snack Run) and **French café waiter** — he orders "Un biscuit, s'il vous plaît" and you hand over a cookie with maximum Parisian dignity. Saying it aloud auto-awards 🇫🇷 French Speaker. **Track Crew Cleanup** ends the leg: four games or toys packed up and put away — if the living room is somehow already tidy, quietly plant four games before Heat Two. The mat sets up the finale: Maple is finally out, and it's the Rock Hoppers rematch.
 
 ## Leg 5 — THE FINALE: Race for the House Cup (Living Room → Driveway)
 

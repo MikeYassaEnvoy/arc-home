@@ -114,8 +114,11 @@ LEGS = {
              "Run) and **French café waiter** — he orders \"Un biscuit, "
              "s'il vous plaît\" and you hand over a cookie with maximum "
              "Parisian dignity. Saying it aloud auto-awards 🇫🇷 French "
-             "Speaker. The mat sets up the finale: Maple is finally out, "
-             "and it's the Rock Hoppers rematch.",
+             "Speaker. **Track Crew Cleanup** ends the leg: four games or "
+             "toys packed up and put away — if the living room is somehow "
+             "already tidy, quietly plant four games before Heat Two. The "
+             "mat sets up the finale: Maple is finally out, and it's the "
+             "Rock Hoppers rematch.",
         mat="**Mat: 2nd of 3** — the Rock Hoppers win the leg; **Team Maple "
             "eliminated** (last for the first time in two seasons). "
             "Badge: 🕹️ Arcade Ace.",

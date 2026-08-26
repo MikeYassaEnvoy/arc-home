@@ -98,8 +98,8 @@
       "kind": "drive",
       "location": "Couch Grand Prix — Heat Two",
       "scheduledTime": "Leg 4 · Stop 4",
-      "clueRiddle": "Back on the couch for the final heat.\nCatch what falls and stamp what you see.",
-      "clueReveal": "Heat Two, back on the couch! Play Bagel Catch, then House Bingo. Then race to the living room mat.",
+      "clueRiddle": "Back on the couch for the final heat.\nThen the track crew makes the pit lane neat!",
+      "clueReveal": "Heat Two, back on the couch! Play Bagel Catch, then House Bingo. After the race, the track crew cleans the track!",
       "challenges": [
         {
           "id": "l4-heat2-bagel",
@@ -117,6 +117,22 @@
           "minigameId": "road-bingo",
           "config": { "card": "house" },
           "points": 10
+        },
+        {
+          "id": "l4-track-cleanup",
+          "type": "physical",
+          "title": "Track Crew Cleanup",
+          "instructions": "The race is over — the track crew takes the course apart. Find four games or toys in the living room. Pack each one up and put it away where it lives!",
+          "timerSeconds": 300,
+          "checklist": [
+            "First game packed up and put away",
+            "Second game packed up and put away",
+            "Third game packed up and put away",
+            "Fourth game packed up and put away",
+            "Couch cushions back in racing order"
+          ],
+          "photoPrompt": "Pit crew salute over the clean track!",
+          "points": 15
         }
       ],
       "funFact": "Montréal bagels are boiled in honey water. You watched it happen!"

@@ -98,7 +98,10 @@ export default function MeetTheTeams({
 
       {phase === 'intros' && current && (
         <div className="arc-meet-stage">
-          <div className="arc-meet-card" key={current.team.id}>
+          {/* Distinct sibling keys: the card and the dialogue previously shared
+              `current.team.id`, and duplicate sibling keys make React leave the
+              outgoing card in the DOM when the intro advances. */}
+          <div className="arc-meet-card" key={`card-${current.team.id}`}>
             <TeamAvatar
               avatarId={current.team.avatarId}
               name={current.team.name}
@@ -117,7 +120,7 @@ export default function MeetTheTeams({
             </span>
           </div>
           <HostDialogue
-            key={current.team.id}
+            key={`dlg-${current.team.id}`}
             lines={[fillTokens(current.tease, teamName)]}
             hostName={hostName}
             avatarResolver={avatarResolver}

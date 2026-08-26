@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" width="112" height="112" role="img" aria-label="Kitchen · frying pan sticker">
+<title>Kitchen · frying pan sticker</title>
+<circle cx="56" cy="56" r="52" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="4"/>
+<circle cx="56" cy="56" r="44" fill="#FFE3A0" stroke="#1A1A1A" stroke-width="4"/>
+<path d="M0.0 -44.0 L9.8 -36.7 L22.0 -38.1 L26.9 -26.9 L38.1 -22.0 L36.7 -9.8 L44.0 0.0 L36.7 9.8 L38.1 22.0 L26.9 26.9 L22.0 38.1 L9.8 36.7 L0.0 44.0 L-9.8 36.7 L-22.0 38.1 L-26.9 26.9 L-38.1 22.0 L-36.7 9.8 L-44.0 0.0 L-36.7 -9.8 L-38.1 -22.0 L-26.9 -26.9 L-22.0 -38.1 L-9.8 -36.7 Z" transform="translate(56,56)" fill="#FFFFFF" opacity="0.35"/>
+<g transform="translate(56,56) scale(1.05)"><g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <circle cx="-4" cy="4" r="19" fill="#59616B"/>
+  <circle cx="-4" cy="4" r="13" fill="#7E8791"/>
+  <path d="M14 -6 L30 -18" stroke-width="6"/>
+  <circle cx="-6" cy="2" r="9" fill="#FFFFFF"/>
+  <circle cx="-6" cy="2" r="4.5" fill="#FFC20E"/>
+  <path d="M-18-22c5-3 9 1 7 5M-8-27c5-3 9 1 7 5" fill="none" stroke-width="3"/></g></g>
+</svg>

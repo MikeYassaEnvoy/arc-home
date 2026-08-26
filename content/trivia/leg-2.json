@@ -1,0 +1,62 @@
+[
+  {
+    "q": "How many legs does a spider have?",
+    "choices": ["Eight", "Six", "Four", "One hundred"],
+    "answerIndex": 0,
+    "funFact": "Insects have six legs — spiders are not insects at all."
+  },
+  {
+    "q": "What is a baby frog called?",
+    "choices": ["A tadpole", "A puppy", "A cub", "A froglet-monster"],
+    "answerIndex": 0,
+    "funFact": "Tadpoles start with no legs at all, then grow four."
+  },
+  {
+    "q": "Which bird can fly backwards?",
+    "choices": ["The hummingbird", "The crow", "The seagull", "The penguin"],
+    "answerIndex": 0,
+    "funFact": "Its wings beat about fifty times every second."
+  },
+  {
+    "q": "What do worms help make for gardens?",
+    "choices": ["Healthy soil", "Spider webs", "Rain", "Fences"],
+    "answerIndex": 0,
+    "funFact": "Worms eat old leaves and turn them into plant food."
+  },
+  {
+    "q": "In which season do most leaves fall off the trees?",
+    "choices": ["Fall", "Summer", "Spring", "Winter"],
+    "answerIndex": 0,
+    "funFact": "That is exactly why it is called fall!"
+  },
+  {
+    "q": "Which busy animal buries acorns all over the yard?",
+    "choices": ["The squirrel", "The goldfish", "The moose", "The penguin"],
+    "answerIndex": 0,
+    "funFact": "Squirrels forget some acorns — and those grow into new trees."
+  },
+  {
+    "q": "What are clouds made of?",
+    "choices": ["Tiny drops of water", "Cotton candy", "Smoke", "Pillow stuffing"],
+    "answerIndex": 0,
+    "funFact": "A big fluffy cloud can weigh as much as one hundred elephants."
+  },
+  {
+    "q": "Which part of a plant drinks water from the dirt?",
+    "choices": ["The roots", "The flower", "The leaves", "The stem hat"],
+    "answerIndex": 0,
+    "funFact": "Some tree roots reach wider than the tree is tall."
+  },
+  {
+    "q": "Which insect makes the honey we eat?",
+    "choices": ["The bee", "The ant", "The butterfly", "The beetle"],
+    "answerIndex": 0,
+    "funFact": "One bee makes only a tiny spoonful of honey in its whole life."
+  },
+  {
+    "q": "What do we call animals that sleep all winter?",
+    "choices": ["Hibernators", "Lazy-bones", "Snoozers", "Winterheads"],
+    "answerIndex": 0,
+    "funFact": "Bears, chipmunks and even some frogs hibernate."
+  }
+]

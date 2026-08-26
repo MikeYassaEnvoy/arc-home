@@ -1,0 +1,56 @@
+{
+  "id": 0,
+  "title": "The Rematch Begins",
+  "date": "Race Day",
+  "routeText": "Front Door → Home Mat",
+  "pitStop": { "hotelName": "Home Starting Line", "city": "Your House" },
+  "steps": [
+    {
+      "id": "l0-s1",
+      "kind": "route-marker",
+      "location": "Front Door Starting Line",
+      "scheduledTime": "Race morning",
+      "clueRiddle": "Last summer you raced across two provinces.\nToday the whole race fits inside one house!",
+      "clueReveal": "Stand by the front door with your team. Answer three warm-up questions. Then step on the mat to meet your rivals.",
+      "challenges": [
+        {
+          "id": "l0-frontdoor-trivia",
+          "type": "trivia",
+          "title": "Champion's Warm-Up",
+          "instructions": "Three quick questions before the race. A champion remembers everything. Guessing is still allowed!",
+          "trivia": [
+            {
+              "q": "Which team did you beat in last summer's photo finish?",
+              "choices": ["The Rock Hoppers", "Team Maple", "Prairie Thunder", "The Tide Riders"],
+              "answerIndex": 0,
+              "funFact": "They have been training all year for this rematch."
+            },
+            {
+              "q": "Where is today's whole race happening?",
+              "choices": ["Right here at home", "Québec City", "Kingston", "The moon"],
+              "answerIndex": 0,
+              "funFact": "Five legs, one house. No long car rides this time!"
+            },
+            {
+              "q": "What do you rip open to get your next clue?",
+              "choices": ["An envelope", "A pillow", "A bag of chips", "A birthday present"],
+              "answerIndex": 0,
+              "funFact": "Yellow and red envelopes, just like the real show."
+            }
+          ],
+          "points": 5
+        }
+      ],
+      "funFact": "Defending champions always get introduced last. That is you now."
+    },
+    {
+      "id": "l0-s2",
+      "kind": "pit-stop",
+      "location": "Home Starting Line",
+      "scheduledTime": "Race morning",
+      "clueRiddle": "Four old rivals are waiting on the mat.\nThey want that trophy back!",
+      "clueReveal": "Step onto the mat by the front door. The host has news. Your four rivals are BACK for a rematch season.",
+      "funFact": "Warm-up points do not count. The real season starts at the kitchen."
+    }
+  ]
+}

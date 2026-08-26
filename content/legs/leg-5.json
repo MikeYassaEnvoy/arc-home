@@ -1,0 +1,133 @@
+{
+  "id": 5,
+  "title": "THE FINALE: Race for the House Cup",
+  "date": "Race Day",
+  "routeText": "Living Room → Driveway Finish Line",
+  "pitStop": { "hotelName": "THE DRIVEWAY — FINISH LINE", "city": "Home" },
+  "steps": [
+    {
+      "id": "l5-s1",
+      "kind": "route-marker",
+      "location": "The Memory Lap",
+      "scheduledTime": "Finale · Stop 1",
+      "clueRiddle": "Run back through everywhere you have raced today.\nBring one treasure home from every leg.",
+      "clueReveal": "Run one lap through the whole race. Collect one thing from each leg's room. Bring them all back to the living room.",
+      "challenges": [
+        {
+          "id": "l5-memory-lap",
+          "type": "scavenger",
+          "title": "The Memory Lap",
+          "instructions": "Visit every room you raced in today. Collect each item on the list. Line them up like trophies when you are done.",
+          "checklist": [
+            "A spoon from the kitchen leg",
+            "A leaf or rock from the backyard",
+            "One folded sock pair from upstairs",
+            "Something from the Café Français",
+            "The comfiest cushion from the Couch 500"
+          ],
+          "photoPrompt": "Your trophy collection, all lined up!",
+          "points": 15
+        }
+      ],
+      "funFact": "Every Amazing Race finale makes teams remember the whole season."
+    },
+    {
+      "id": "l5-s2",
+      "kind": "roadblock",
+      "location": "The Recap Round",
+      "scheduledTime": "Finale · Stop 2",
+      "clueRiddle": "Who remembers every twist of the day?\nFive questions stand in the champion's way.",
+      "clueReveal": "Who remembers it all? Answer five questions about TODAY'S race. You lived every answer!",
+      "challenges": [
+        {
+          "id": "l5-recap-trivia",
+          "type": "trivia",
+          "title": "The Recap Round",
+          "instructions": "Five questions about your race today. No hints, no help. Prove you remember it all!",
+          "trivia": [
+            {
+              "q": "Where did you taste the three mystery bites?",
+              "choices": ["The kitchen", "The backyard", "Upstairs", "The driveway"],
+              "answerIndex": 0,
+              "funFact": "Leg 1, with your eyes closed the whole time."
+            },
+            {
+              "q": "How many sock pairs did the Sock Ninja have to match?",
+              "choices": ["Eight", "Two", "Twenty", "One hundred"],
+              "answerIndex": 0,
+              "funFact": "Eight pairs in under three minutes. Ninja work."
+            },
+            {
+              "q": "What did you order at Café Français?",
+              "choices": ["Un biscuit", "Un cannoli", "Une poutine", "Un bagel"],
+              "answerIndex": 0,
+              "funFact": "Un biscuit, s'il vous plaît — one cookie, please."
+            },
+            {
+              "q": "Which team was eliminated FIRST this season?",
+              "choices": ["Prairie Thunder", "Team Maple", "The Tide Riders", "The Rock Hoppers"],
+              "answerIndex": 0,
+              "funFact": "They got lost between the kitchen and the backyard."
+            },
+            {
+              "q": "Which team are you racing in this finale?",
+              "choices": ["The Rock Hoppers", "Team Maple", "Prairie Thunder", "The Tide Riders"],
+              "answerIndex": 0,
+              "funFact": "The rematch of last summer's photo finish!"
+            }
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "Champions win finales with their memory as much as their feet."
+    },
+    {
+      "id": "l5-s3",
+      "kind": "speed-bump",
+      "location": "Double Lap Dash: The Rematch",
+      "scheduledTime": "Finale · Stop 3",
+      "clueRiddle": "One year ago you ran this very race.\nBeat sixty seconds — and beat your old pace!",
+      "clueReveal": "The very first challenge you ever did — again! Run two laps around the house or yard. Beat sixty seconds one more time.",
+      "challenges": [
+        {
+          "id": "l5-lap-rematch",
+          "type": "physical",
+          "title": "Double Lap Dash: The Rematch",
+          "instructions": "Tap start, then run two full laps. You have trained a whole year for this. Beat sixty seconds!",
+          "timerSeconds": 60,
+          "photoPrompt": "Flying finish!",
+          "points": 10
+        }
+      ],
+      "funFact": "This was the first challenge of your racing career. Full circle!"
+    },
+    {
+      "id": "l5-s4",
+      "kind": "drive",
+      "location": "The Final Puzzle",
+      "scheduledTime": "Finale · Stop 4",
+      "clueRiddle": "One last puzzle guards the finish line.\nYour own photos hold the answer.",
+      "clueReveal": "Almost there! Play one last game about today's race. Match every photo to its stop, in order.",
+      "challenges": [
+        {
+          "id": "l5-final-photofinish",
+          "type": "minigame",
+          "title": "Photo Finish",
+          "instructions": "Look at the photos from today's race. Match each one to its stop. Put them in the right order!",
+          "minigameId": "photo-finish",
+          "points": 25
+        }
+      ],
+      "funFact": "Press and hold any photo to see it big."
+    },
+    {
+      "id": "l5-s5",
+      "kind": "pit-stop",
+      "location": "THE DRIVEWAY — FINISH LINE",
+      "scheduledTime": "Finale · The Finish",
+      "clueRiddle": "Out the front door, fast as you dare.\nThe finish line mat is waiting there!",
+      "clueReveal": "This is it. Run out the front door to the driveway. The finish line mat decides EVERYTHING.",
+      "funFact": "Two teams. One mat. One House Cup."
+    }
+  ]
+}

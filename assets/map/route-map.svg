@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Souvenir race map — all around the house">
+<title>Souvenir race map — all around the house</title>
+<defs>
+  <clipPath id="mapclip"><rect x="4" y="4" width="892" height="512" rx="22"/></clipPath>
+</defs>
+<style>
+  .segment{transition:opacity .45s ease}
+  .segment.locked{opacity:.14}
+  .segment.done .seg-line{stroke:#DA291C}
+  .node{transition:opacity .45s ease}
+  .node.locked .node-disc{fill:#DCD5C1}
+  .node.locked .node-num{fill:#8B856E}
+  .node-pulse{opacity:0;transform-box:fill-box;transform-origin:center}
+  .node.current .node-pulse{opacity:1;animation:ar-pulse 1.7s ease-out infinite}
+  @keyframes ar-pulse{0%{transform:scale(.85);opacity:.85}100%{transform:scale(2.1);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.node.current .node-pulse{animation:none;opacity:.5}}
+</style>
+<g clip-path="url(#mapclip)">
+  <!-- sky + grass -->
+  <rect x="4" y="4" width="892" height="512" fill="#BFEAFB"/>
+  <rect x="4" y="398" width="892" height="118" fill="#A8E6A0"/>
+  <path d="M4 398h892" stroke="#7FBF6E" stroke-width="4"/>
+  <!-- sun -->
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linecap="round">
+    <circle cx="836" cy="76" r="26" fill="#FFC20E"/>
+    <path d="M836 34v-12M836 118v12M794 76h-12M878 76h12M806 46l-8-8M866 106l8 8M866 46l8-8M806 106l-8 8"/>
+  </g>
+  <!-- clouds -->
+  <g fill="#FFFFFF" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round">
+    <path d="M628 70a16 16 0 0 1 14-24 18 18 0 0 1 34-6 14 14 0 0 1 16 22 12 12 0 0 1-10 8h-46a12 12 0 0 1-8 0z"/>
+    <path d="M64 130a14 14 0 0 1 12-22 16 16 0 0 1 30-5 12 12 0 0 1 14 19 10 10 0 0 1-9 8H72a10 10 0 0 1-8 0z"/>
+  </g>
+  <!-- driveway (finish) -->
+  <path d="M26 516 66 424h72l44 92z" fill="#B9BEC6" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M104 434v76" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="12 12"/>
+  <!-- family car parked at the finish -->
+  <g transform="translate(100 498)" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-34 6h68v-14l-12-4-10-12h-28l-10 12-8 4z" fill="#DA291C"/>
+    <path d="M-16-10h30l6 8h-42z" fill="#BFEAFB"/>
+    <circle cx="-18" cy="8" r="7" fill="#1A1A1A" stroke="none"/><circle cx="20" cy="8" r="7" fill="#1A1A1A" stroke="none"/>
+    <circle cx="-18" cy="8" r="3" fill="#FFFFFF" stroke="none"/><circle cx="20" cy="8" r="3" fill="#FFFFFF" stroke="none"/>
+  </g>
+  <!-- checkered finish flag -->
+  <g transform="translate(52 388) scale(0.62)" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-4 44V-26" stroke-width="7"/>
+    <rect x="-4" y="-26" width="44" height="30" fill="#FFFFFF"/>
+    <rect x="-4" y="-26" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="-4" y="-6" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="7" y="-16" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="18" y="-26" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="18" y="-6" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="29" y="-16" width="11" height="10" fill="#1A1A1A" stroke="none"/>
+    <rect x="-4" y="-26" width="44" height="30" fill="none"/>
+  </g>
+  <!-- ================= THE HOUSE (cutaway) ================= -->
+  <!-- walls -->
+  <rect x="172" y="192" width="408" height="266" fill="#FFF7E0" stroke="#1A1A1A" stroke-width="6"/>
+  <!-- roof -->
+  <path d="M152 194 376 82 600 194z" fill="#DA291C" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="470" y="106" width="26" height="52" fill="#8A5A1E" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- attic window -->
+  <circle cx="376" cy="150" r="16" fill="#BFEAFB" stroke="#1A1A1A" stroke-width="4"/>
+  <path d="M376 134v32M360 150h32" stroke="#1A1A1A" stroke-width="3"/>
+  <!-- floor + room dividers -->
+  <path d="M172 330h408" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M268 330v128M432 330v128" stroke="#1A1A1A" stroke-width="4"/>
+  <path d="M432 192v138" stroke="#1A1A1A" stroke-width="4"/>
+  <!-- staircase (hall, ground → upstairs) -->
+  <g fill="#E9C97F" stroke="#1A1A1A" stroke-width="3.5" stroke-linejoin="round">
+    <path d="M186 456v-16h16v-16h16v-16h16v-16h16v-16h12v80z" transform="translate(0 -2)"/>
+  </g>
+  <!-- front door -->
+  <rect x="204" y="396" width="42" height="62" rx="4" fill="#8A5A1E" stroke="#1A1A1A" stroke-width="4.5"/>
+  <circle cx="238" cy="428" r="3.5" fill="#FFC20E" stroke="#1A1A1A" stroke-width="2"/>
+  <!-- living room: TV + couch -->
+  <rect x="292" y="346" width="76" height="46" rx="4" fill="#59616B" stroke="#1A1A1A" stroke-width="4"/>
+  <rect x="298" y="352" width="64" height="34" rx="2" fill="#7FD4F5" stroke="#1A1A1A" stroke-width="2.5"/>
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round">
+    <rect x="286" y="416" width="118" height="30" rx="10" fill="#DA291C"/>
+    <rect x="292" y="402" width="50" height="22" rx="8" fill="#F06A5E"/>
+    <rect x="348" y="402" width="50" height="22" rx="8" fill="#F06A5E"/>
+    <path d="M292 446v8M398 446v8" stroke-linecap="round"/>
+  </g>
+  <!-- kitchen: fridge + stove -->
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round">
+    <rect x="534" y="366" width="38" height="90" rx="4" fill="#FFFFFF"/>
+    <path d="M534 400h38" stroke-width="3"/>
+    <path d="M566 382v10M566 410v14" stroke-linecap="round" stroke-width="3"/>
+    <rect x="440" y="410" width="76" height="46" fill="#7FD4F5"/>
+    <circle cx="458" cy="422" r="6" fill="#1A1A1A" stroke="none"/><circle cx="480" cy="422" r="6" fill="#1A1A1A" stroke="none"/><circle cx="500" cy="422" r="6" fill="#1A1A1A" stroke="none"/>
+    <rect x="448" y="434" width="60" height="16" rx="3" fill="#FFF7E0"/>
+  </g>
+  <!-- upstairs: bed -->
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round">
+    <rect x="284" y="288" width="110" height="30" rx="6" fill="#7FD4F5"/>
+    <rect x="284" y="272" width="10" height="46" rx="3" fill="#8A5A1E"/>
+    <rect x="296" y="282" width="30" height="14" rx="6" fill="#FFFFFF"/>
+    <path d="M284 318h110v8h-110z" fill="#8A5A1E"/>
+  </g>
+  <!-- upstairs: laundry corner (washer + sock line) -->
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round">
+    <rect x="486" y="266" width="58" height="58" rx="6" fill="#FFFFFF"/>
+    <circle cx="515" cy="299" r="17" fill="#7FD4F5"/>
+    <circle cx="515" cy="299" r="9" fill="#BFEAFB"/>
+    <circle cx="497" cy="276" r="3" fill="#DA291C" stroke="none"/><circle cx="508" cy="276" r="3" fill="#FFC20E" stroke="none"/>
+    <path d="M444 236c30 14 84 14 116 0" fill="none" stroke-width="3"/>
+    <path d="M472 244l4 16 8-2 2-12z" fill="#FFC20E" stroke-width="3"/>
+    <path d="M508 246l2 16 9-1 1-13z" fill="#DA291C" stroke-width="3"/>
+  </g>
+  <!-- windows on the wall -->
+  <g fill="#BFEAFB" stroke="#1A1A1A" stroke-width="4">
+    <rect x="188" y="222" width="36" height="36" rx="4"/>
+    <rect x="330" y="222" width="36" height="36" rx="4" transform="translate(226 0)" opacity="0"/>
+  </g>
+  <path d="M206 222v36M188 240h36" stroke="#1A1A1A" stroke-width="2.5"/>
+  <!-- ================= THE YARD ================= -->
+  <!-- fence -->
+  <g fill="#E9C97F" stroke="#1A1A1A" stroke-width="3.5" stroke-linejoin="round">
+    <rect x="604" y="352" width="14" height="52" rx="3"/><rect x="644" y="352" width="14" height="52" rx="3"/>
+    <rect x="684" y="352" width="14" height="52" rx="3"/><rect x="724" y="352" width="14" height="52" rx="3"/>
+    <rect x="764" y="352" width="14" height="52" rx="3"/><rect x="804" y="352" width="14" height="52" rx="3"/>
+    <rect x="844" y="352" width="14" height="52" rx="3"/>
+    <rect x="598" y="362" width="268" height="9" rx="3"/><rect x="598" y="384" width="268" height="9" rx="3"/>
+  </g>
+  <!-- big backyard tree -->
+  <g stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M778 404v-70l-16-20M778 356l18-16" fill="none" stroke-width="9"/>
+    <circle cx="748" cy="268" r="34" fill="#3E8E2E"/>
+    <circle cx="800" cy="248" r="40" fill="#4FA33A"/>
+    <circle cx="840" cy="288" r="30" fill="#3E8E2E"/>
+    <circle cx="782" cy="298" r="30" fill="#4FA33A"/>
+  </g>
+  <!-- flowers + bush -->
+  <g stroke="#1A1A1A" stroke-width="3" stroke-linecap="round">
+    <circle cx="626" cy="470" r="18" fill="#3E8E2E" stroke-width="4"/>
+    <path d="M672 486v-18M700 490v-16" stroke="#3E8E2E" stroke-width="4"/>
+    <circle cx="672" cy="462" r="7" fill="#DA291C"/><circle cx="700" cy="468" r="7" fill="#FFC20E"/>
+    <circle cx="672" cy="462" r="2.5" fill="#FFC20E"/><circle cx="700" cy="468" r="2.5" fill="#DA291C"/>
+  </g>
+  <!-- little bird -->
+  <g transform="translate(668 320)" stroke="#1A1A1A" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="0" cy="0" r="10" fill="#7FD4F5"/>
+    <path d="M8-2l8-4-6 7z" fill="#FFC20E"/>
+    <circle cx="-2" cy="-3" r="1.6" fill="#1A1A1A" stroke="none"/>
+    <path d="M-4 10v6M2 10v6"/>
+  </g>
+  <!-- labels -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" fill="#6C8A50" opacity="0.9">
+    <text x="640" y="170" font-size="24" letter-spacing="5">THE YARD</text>
+  </g>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" fill="#B98A2E" opacity="0.9">
+    <text x="212" y="72" font-size="24" letter-spacing="5">HOME SWEET RACE</text>
+  </g>
+  <!-- ================= ROUTE ================= -->
+  <g id="route" fill="none" stroke-linecap="round">
+    <g id="segment-0" class="segment">
+      <path class="seg-shadow" d="M218 430C186 448 168 420 186 404 202 390 222 406 218 430" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M218 430C186 448 168 420 186 404 202 390 222 406 218 430" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-1" class="segment">
+      <path class="seg-shadow" d="M218 430C280 476 440 476 505 430" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M218 430C280 476 440 476 505 430" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-2" class="segment">
+      <path class="seg-shadow" d="M505 430C560 470 672 468 735 430" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M505 430C560 470 672 468 735 430" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-3" class="segment">
+      <path class="seg-shadow" d="M735 430C775 240 580 60 350 255" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M735 430C775 240 580 60 350 255" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-4" class="segment">
+      <path class="seg-shadow" d="M350 255C302 300 306 384 350 430" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M350 255C302 300 306 384 350 430" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-5" class="segment">
+      <path class="seg-shadow" d="M350 430C280 478 160 478 90 430" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M350 430C280 478 160 478 90 430" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+  </g>
+  <!-- ================= NODES ================= -->
+  <g id="node-0" class="node">
+    <circle class="node-pulse" cx="218" cy="430" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="218" cy="430" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="218" cy="430" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="218" y="436" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">0</text>
+    <text x="218" y="480" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">FRONT DOOR</text>
+    <g id="sticker-slot-0" transform="translate(218 384)"></g>
+  </g>
+  <g id="node-1" class="node">
+    <circle class="node-pulse" cx="505" cy="430" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="505" cy="430" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="505" cy="430" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="505" y="436" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">1</text>
+    <text x="505" y="480" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">KITCHEN</text>
+    <g id="sticker-slot-1" transform="translate(505 384)"></g>
+  </g>
+  <g id="node-2" class="node">
+    <circle class="node-pulse" cx="735" cy="430" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="735" cy="430" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="735" cy="430" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="735" y="436" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">2</text>
+    <text x="735" y="480" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">BACKYARD</text>
+    <g id="sticker-slot-2" transform="translate(735 384)"></g>
+  </g>
+  <g id="node-3" class="node">
+    <circle class="node-pulse" cx="350" cy="255" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="350" cy="255" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="350" cy="255" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="350" y="261" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">3</text>
+    <text x="418" y="222" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">UPSTAIRS</text>
+    <g id="sticker-slot-3" transform="translate(350 209)"></g>
+  </g>
+  <g id="node-4" class="node">
+    <circle class="node-pulse" cx="350" cy="430" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="350" cy="430" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="350" cy="430" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="350" y="436" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">4</text>
+    <text x="350" y="502" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">LIVING ROOM</text>
+    <g id="sticker-slot-4" transform="translate(350 384)"></g>
+  </g>
+  <g id="node-5" class="node">
+    <circle class="node-pulse" cx="90" cy="430" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="90" cy="430" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="90" cy="430" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="90" y="436" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">5</text>
+    <text x="90" y="480" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">FINISH</text>
+    <g id="sticker-slot-5" transform="translate(90 384)"></g>
+  </g>
+</g>
+<rect x="4" y="4" width="892" height="512" rx="22" fill="none" stroke="#1A1A1A" stroke-width="8"/>
+<rect x="16" y="16" width="868" height="488" rx="14" fill="none" stroke="#FFC20E" stroke-width="5" opacity="0.85"/>
+</svg>

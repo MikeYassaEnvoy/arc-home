@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 132" width="120" height="132" role="img" aria-label="Backyard Explorer badge">
+<title>Backyard Explorer badge</title>
+<g id="ribbon" fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/>
+  <g transform="translate(120,0) scale(-1,1)"><path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/></g>
+</g>
+<rect x="44" y="80" width="32" height="15" rx="6" fill="#FFC20E" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="medal">
+  <circle cx="60" cy="50" r="43" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="60" cy="50" r="43" fill="none" stroke="#E0A400" stroke-width="2"/>
+  <circle cx="60" cy="50" r="34" fill="#A8E6A0" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g id="icon" transform="translate(60,50)">
+    <g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="-4" y="8" width="8" height="16" fill="#8A5A1E"/>
+      <circle cx="-10" cy="-8" r="11" fill="#3E8E2E"/>
+      <circle cx="10" cy="-12" r="12" fill="#4FA33A"/>
+      <circle cx="4" cy="2" r="10" fill="#3E8E2E"/>
+      <circle cx="16" cy="14" r="10" fill="#FFFFFF" fill-opacity="0.85"/>
+      <path d="M23 21l8 8" stroke-width="6"/>
+    </g>
+    <circle cx="16" cy="14" r="5" fill="none" stroke="#7FD4F5" stroke-width="2.5"/>
+  </g>
+</g>
+</svg>

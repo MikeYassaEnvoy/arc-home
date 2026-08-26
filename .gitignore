@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dev-dist/
+.DS_Store
+*.local
+.vite/
+
+# Personal itinerary with booking details — never commit
+content/reference/
+
+# CI needs the lockfile (overrides global ignore)
+!package-lock.json
+
+# Trip-era build spec with family travel details — keep local
+PLAN.md

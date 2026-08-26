@@ -1,0 +1,133 @@
+{
+  "id": 3,
+  "title": "Secrets of the Second Floor",
+  "date": "Race Day",
+  "routeText": "Backyard → Upstairs",
+  "pitStop": { "hotelName": "Top of the Stairs Mat", "city": "Upstairs" },
+  "steps": [
+    {
+      "id": "l3-s1",
+      "kind": "route-marker",
+      "location": "Your Bedroom",
+      "scheduledTime": "Leg 3 · Stop 1",
+      "clueRiddle": "Climb to the room where you dream at night.\nFive secrets hide in plain sight.",
+      "clueReveal": "Race up to your own bedroom. Become a detective in your own room. Find all five things on the list.",
+      "challenges": [
+        {
+          "id": "l3-bedroom-detective",
+          "type": "scavenger",
+          "title": "Bedroom Detective",
+          "instructions": "Your own room is the crime scene. Find each thing on the list. Tap to check it off.",
+          "checklist": [
+            "Something from the Québec trip",
+            "The oldest toy you own",
+            "Something you made yourself",
+            "The softest thing in the room",
+            "Something you have not played with in ages"
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "Detectives say the best hiding spot is the most boring one."
+    },
+    {
+      "id": "l3-s2",
+      "kind": "detour",
+      "location": "The Upstairs Hallway",
+      "scheduledTime": "Leg 3 · Stop 2",
+      "clueRiddle": "Two paths split at the top of the stairs.\nBuilders go left, readers go right.",
+      "clueReveal": "This is a Detour: pick Build or Books. Build a rolling machine, or hunt six special books. Choose the one you will be best at!",
+      "detour": {
+        "a": {
+          "label": "Build",
+          "blurb": "Ten minutes, one rolling machine. Builders, start your engines.",
+          "challenges": [
+            {
+              "id": "l3-detour-build",
+              "type": "physical",
+              "title": "The Ten-Minute Machine",
+              "instructions": "Build something with wheels that really rolls. Use Lego or any blocks you own. Ten minutes on the clock!",
+              "timerSeconds": 600,
+              "checklist": [
+                "It has wheels",
+                "It rolls when you push it",
+                "It has an awesome name"
+              ],
+              "photoPrompt": "Show off your machine!",
+              "points": 20
+            }
+          ]
+        },
+        "b": {
+          "label": "Books",
+          "blurb": "Six special books are hiding on your own shelf.",
+          "challenges": [
+            {
+              "id": "l3-detour-books",
+              "type": "scavenger",
+              "title": "Home Book Hunt",
+              "instructions": "Search every bookshelf in the house. Find each kind of book. Put every book back where it was.",
+              "checklist": [
+                "A book with an animal on the cover",
+                "A book with a number in the title",
+                "A book with your first initial in the title",
+                "A book you have read more than once",
+                "The dustiest book you can find",
+                "A book taller than your hand"
+              ],
+              "points": 20
+            }
+          ]
+        }
+      },
+      "funFact": "On the real show, teams argue about detours. You get to just pick."
+    },
+    {
+      "id": "l3-s3",
+      "kind": "roadblock",
+      "location": "The Laundry Pile",
+      "scheduledTime": "Leg 3 · Stop 3",
+      "clueRiddle": "Who is quiet, quick and sneaky of hand?\nA mountain of socks needs a ninja's plan.",
+      "clueReveal": "Who's the Sock Ninja? A parent dumps out the sock pile. Match eight pairs before three minutes run out!",
+      "challenges": [
+        {
+          "id": "l3-sock-ninja",
+          "type": "physical",
+          "title": "Sock Match Showdown",
+          "instructions": "Start the stopwatch, then dig in. Match eight pairs and fold each pair together. Beat three minutes to earn your ninja belt!",
+          "timerSeconds": 180,
+          "photoPrompt": "Sock pyramid victory pose!",
+          "points": 20
+        }
+      ],
+      "funFact": "Somewhere in every house lives one sock with no partner. Spooky."
+    },
+    {
+      "id": "l3-s4",
+      "kind": "speed-bump",
+      "location": "Mission: Fresh Bed",
+      "scheduledTime": "Leg 3 · Stop 4",
+      "clueRiddle": "Hotels on the trip made beds so neat.\nNow show them YOUR five-star sheet!",
+      "clueReveal": "Quick bonus mission! Make your bed like a fancy hotel bed. Smooth blanket, straight pillows, no lumps.",
+      "challenges": [
+        {
+          "id": "l3-fresh-bed",
+          "type": "physical",
+          "title": "Five-Star Bed",
+          "instructions": "Pull the blanket smooth and flat. Line the pillows up straight. Add one stuffed animal as the fancy touch.",
+          "points": 5
+        }
+      ],
+      "funFact": "Hotel workers can make a perfect bed in under two minutes."
+    },
+    {
+      "id": "l3-s5",
+      "kind": "pit-stop",
+      "location": "Top of the Stairs Mat",
+      "scheduledTime": "Leg 3 · Pit Stop",
+      "clueRiddle": "The mat waits where the stairs stop climbing.\nRace there — this could be your night!",
+      "clueReveal": "The mat is at the top of the stairs. Run to it and jump on. Tonight's standings could be BIG.",
+      "funFact": "Halfway through the season is when champions make their move."
+    }
+  ]
+}

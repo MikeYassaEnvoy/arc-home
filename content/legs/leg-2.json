@@ -1,0 +1,119 @@
+{
+  "id": 2,
+  "title": "Backyard Expedition",
+  "date": "Race Day",
+  "routeText": "Kitchen → Backyard",
+  "pitStop": { "hotelName": "The Backyard Mat", "city": "The Backyard" },
+  "steps": [
+    {
+      "id": "l2-s1",
+      "kind": "route-marker",
+      "location": "Explorer Training Grounds",
+      "scheduledTime": "Leg 2 · Stop 1",
+      "clueRiddle": "Out the back door to wilder lands.\nLevel Two needs sharper eyes and dirtier hands.",
+      "clueReveal": "Head out to the backyard. This is Explorer Training: Level Two. Find all six things on the list.",
+      "challenges": [
+        {
+          "id": "l2-explorer-two",
+          "type": "scavenger",
+          "title": "Explorer Training: Level Two",
+          "instructions": "Last summer's training was the easy version. Find all six things. Look low, look high, look under.",
+          "checklist": [
+            "Two different kinds of bugs",
+            "A stick shaped like the letter Y",
+            "Something a bird could eat",
+            "The softest thing in the yard",
+            "A rock with more than one colour",
+            "Something that was not here last week"
+          ],
+          "photoPrompt": "Explorer at work!",
+          "points": 15
+        }
+      ],
+      "funFact": "Rainy day? The same hunt works out a window or on the balcony."
+    },
+    {
+      "id": "l2-s2",
+      "kind": "speed-bump",
+      "location": "The Middle of the Yard",
+      "scheduledTime": "Leg 2 · Stop 2",
+      "clueRiddle": "Stand in the middle and turn around slow.\nHow many windows watch you below?",
+      "clueReveal": "Stand in the middle of the yard. Turn in a slow circle. Count every window you can see on your house.",
+      "challenges": [
+        {
+          "id": "l2-window-watch",
+          "type": "count",
+          "title": "Window Watch",
+          "instructions": "Turn slowly and scan your whole house. Count every window you can see. Type your number in the box.",
+          "points": 8
+        }
+      ],
+      "funFact": "Racers call this a recce — saying it like WRECK-ee sounds cool."
+    },
+    {
+      "id": "l2-s3",
+      "kind": "roadblock",
+      "location": "Backyard Grand Prix",
+      "scheduledTime": "Leg 2 · Stop 3",
+      "clueRiddle": "Who has the fastest feet in the family?\nTwo laps, ten jumps, one superhero.",
+      "clueReveal": "Who's got the fastest feet? Run the backyard obstacle circuit. Beat two minutes on the stopwatch!",
+      "challenges": [
+        {
+          "id": "l2-obstacle-gp",
+          "type": "physical",
+          "title": "Backyard Obstacle Grand Prix",
+          "instructions": "Start the clock and do every move on the list. Go as fast as you safely can. Finish before two minutes run out!",
+          "timerSeconds": 120,
+          "checklist": [
+            "Run two laps of the yard",
+            "Do ten jumping jacks",
+            "Touch the fence or the farthest wall",
+            "Spin around three times",
+            "Strike a superhero landing pose"
+          ],
+          "photoPrompt": "Superhero landing!",
+          "points": 15
+        }
+      ],
+      "funFact": "Spinning three times makes the running part much funnier to watch."
+    },
+    {
+      "id": "l2-s4",
+      "kind": "drive",
+      "location": "Porch Pit Row",
+      "scheduledTime": "Leg 2 · Stop 4",
+      "clueRiddle": "Sit where you can see your training grounds.\nStamp what you spot, then test your brain.",
+      "clueReveal": "Sit on the porch or a step. Play Backyard Bingo with your eyes on the yard. Then take the nature quiz.",
+      "challenges": [
+        {
+          "id": "l2-drive-bingo",
+          "type": "minigame",
+          "title": "Backyard Bingo",
+          "instructions": "Look around the yard for each square. Tap it when you spot it. Four in a row is a bingo!",
+          "minigameId": "road-bingo",
+          "config": { "card": "backyard" },
+          "points": 10
+        },
+        {
+          "id": "l2-drive-trivia",
+          "type": "minigame",
+          "title": "Nature Trivia Deck",
+          "instructions": "Ten questions about bugs, birds and backyards. Guess before you tap. Every answer has a fun fact.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-2", "count": 10 },
+          "points": 10
+        }
+      ],
+      "funFact": "The backyard bingo card is the same one you trained on last summer."
+    },
+    {
+      "id": "l2-s5",
+      "kind": "pit-stop",
+      "location": "The Backyard Mat",
+      "scheduledTime": "Leg 2 · Pit Stop",
+      "clueRiddle": "The mat is out on the grass tonight.\nRun to it — the standings are tight!",
+      "clueReveal": "Race to the mat in the backyard. Step on it with both feet. The host has serious news tonight.",
+      "funFact": "Watch out — somebody always gets lost on expedition legs."
+    }
+  ]
+}

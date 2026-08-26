@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What is the first meal of the day called?",
+    "choices": ["Breakfast", "Dinner", "Dessert", "A snack"],
+    "answerIndex": 0,
+    "funFact": "Breakfast means you are breaking the night's long fast."
+  },
+  {
+    "q": "What do you get when you heat bread until it is golden?",
+    "choices": ["Toast", "Soup", "Pasta", "A pancake"],
+    "answerIndex": 0,
+    "funFact": "The toaster was invented more than one hundred years ago."
+  },
+  {
+    "q": "What is Canada's most famous pancake topping?",
+    "choices": ["Maple syrup", "Ketchup", "Mustard", "Gravy"],
+    "answerIndex": 0,
+    "funFact": "It takes forty buckets of tree sap to make one bucket of syrup."
+  },
+  {
+    "q": "Which kitchen machine keeps your food cold?",
+    "choices": ["The refrigerator", "The oven", "The toaster", "The kettle"],
+    "answerIndex": 0,
+    "funFact": "Before fridges, people kept food cold with giant blocks of ice."
+  },
+  {
+    "q": "What squeaks on top of a proper poutine?",
+    "choices": ["Cheese curds", "Marshmallows", "Pickles", "Popcorn"],
+    "answerIndex": 0,
+    "funFact": "You judged a real poutine in Québec City. Squeak squeak."
+  },
+  {
+    "q": "Which kitchen tool flips pancakes?",
+    "choices": ["A spatula", "A whisk", "A straw", "A rolling pin"],
+    "answerIndex": 0,
+    "funFact": "Flipping a pancake in the air is harder than it looks."
+  },
+  {
+    "q": "What is frozen water called?",
+    "choices": ["Ice", "Steam", "Jelly", "Snow soup"],
+    "answerIndex": 0,
+    "funFact": "Ice floats because it is lighter than the water around it."
+  },
+  {
+    "q": "Which vegetable can make you cry when you chop it?",
+    "choices": ["An onion", "A carrot", "A potato", "Corn"],
+    "answerIndex": 0,
+    "funFact": "Onions puff out a gas that tickles your eyes. Rude!"
+  },
+  {
+    "q": "Montréal bagels are boiled in water with what added?",
+    "choices": ["Honey", "Hot sauce", "Soap", "Chocolate"],
+    "answerIndex": 0,
+    "funFact": "You watched the bakers do this at St-Viateur Bagel!"
+  },
+  {
+    "q": "Which drink comes from cows?",
+    "choices": ["Milk", "Orange juice", "Lemonade", "Root beer"],
+    "answerIndex": 0,
+    "funFact": "One cow can make about thirty glasses of milk a day."
+  }
+]

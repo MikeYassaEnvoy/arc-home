@@ -1,0 +1,109 @@
+{
+  "id": 1,
+  "title": "Kitchen Confidential",
+  "date": "Race Day",
+  "routeText": "Front Door → Kitchen",
+  "pitStop": { "hotelName": "The Kitchen Table Mat", "city": "The Kitchen" },
+  "steps": [
+    {
+      "id": "l1-s1",
+      "kind": "route-marker",
+      "location": "Kitchen Counter HQ",
+      "scheduledTime": "Leg 1 · Stop 1",
+      "clueRiddle": "Go where the fridge hums and the toaster pops.\nA mystery is waiting on the counter.",
+      "clueReveal": "Race to the kitchen counter. A parent will pick three tiny mystery bites. Close your eyes and taste each one!",
+      "challenges": [
+        {
+          "id": "l1-mystery-bite",
+          "type": "taste",
+          "title": "Mystery Bite",
+          "instructions": "Close your eyes tight — no peeking. A parent hands you three tiny bites. Guess each one, then rate your favourite.",
+          "checklist": [
+            "Bite one — I made my guess",
+            "Bite two — I made my guess",
+            "Bite three — I made my guess",
+            "At least one guess was right!"
+          ],
+          "awardBadge": "brave-bite",
+          "photoPrompt": "Blindfold taste-test face!",
+          "points": 15
+        }
+      ],
+      "funFact": "Real race chefs taste food with their eyes closed to focus their tongue."
+    },
+    {
+      "id": "l1-s2",
+      "kind": "route-marker",
+      "location": "The Great Kitchen Census",
+      "scheduledTime": "Leg 1 · Stop 2",
+      "clueRiddle": "Some things in this room hide in plain sight.\nCount them all and count them right.",
+      "clueReveal": "Stay in the kitchen for a counting mission. Count every spoon in the drawer. Then count everything stuck to the fridge.",
+      "challenges": [
+        {
+          "id": "l1-spoon-census",
+          "type": "count",
+          "title": "Spoon Census",
+          "instructions": "Open the cutlery drawer. Count every single spoon — big and small. Type your number in the box.",
+          "points": 8
+        },
+        {
+          "id": "l1-fridge-count",
+          "type": "count",
+          "title": "Fridge Door Count",
+          "instructions": "Look at the outside of the fridge. Count every magnet, photo and note. Nothing on the door escapes you.",
+          "points": 7
+        }
+      ],
+      "funFact": "Census is a fancy word for counting everything. Canada does one too."
+    },
+    {
+      "id": "l1-s3",
+      "kind": "roadblock",
+      "location": "The Dinner Table",
+      "scheduledTime": "Leg 1 · Stop 3",
+      "clueRiddle": "Who can set the table like a fancy hotel?\nPlates and forks, and do it well!",
+      "clueReveal": "Who's ready to be a waiter? Set the table for your whole family. Beat three minutes on the stopwatch.",
+      "challenges": [
+        {
+          "id": "l1-table-sprint",
+          "type": "physical",
+          "title": "Table Setting Sprint",
+          "instructions": "Start the stopwatch, then set the table. Every person needs a plate, a fork and a cup. Straighten everything before you stop the clock!",
+          "timerSeconds": 180,
+          "photoPrompt": "Fanciest waiter pose!",
+          "points": 15
+        }
+      ],
+      "funFact": "In fancy restaurants the fork always goes on the left."
+    },
+    {
+      "id": "l1-s4",
+      "kind": "drive",
+      "location": "Snack Break Couch",
+      "scheduledTime": "Leg 1 · Stop 4",
+      "clueRiddle": "Even home racers need a pit lane.\nPark on the couch and power up your brain.",
+      "clueReveal": "Take a couch break — you earned it. Play the Kitchen Trivia deck. Then race to the kitchen table mat!",
+      "challenges": [
+        {
+          "id": "l1-drive-trivia",
+          "type": "minigame",
+          "title": "Kitchen Trivia Deck",
+          "instructions": "Ten tasty questions about food and kitchens. One big question at a time. Streaks light a little fire!",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-1", "count": 10 },
+          "points": 10
+        }
+      ],
+      "funFact": "On the real show, teams quiz each other during every drive."
+    },
+    {
+      "id": "l1-s5",
+      "kind": "pit-stop",
+      "location": "The Kitchen Table Mat",
+      "scheduledTime": "Leg 1 · Pit Stop",
+      "clueRiddle": "The first mat of the season is set for dinner.\nRun to the table — are you the winner?",
+      "clueReveal": "Race to the kitchen table. Step on the mat. The host is waiting with the standings!",
+      "funFact": "Pit stop mats are where every leg's drama happens."
+    }
+  ]
+}

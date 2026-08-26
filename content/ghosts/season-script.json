@@ -1,0 +1,227 @@
+{
+  "$comment": "Ghost teams + scripted season arc for The Amazing Race: Home Edition — the rematch season, five legs around the house. Placements are SCRIPTED and never computed. Tokens usable in any line: {team} = player's team name, {points} = points earned this leg, {done} = challenges completed, {total} = challenges available.",
+  "version": 2,
+  "playerTeamId": "yassa",
+  "teams": [
+    {
+      "id": "maple",
+      "name": "Team Maple",
+      "members": ["Ava", "Liam"],
+      "avatarId": "ghost-maple",
+      "tagline": "Back, and still one step ahead.",
+      "personality": "Your oldest rivals, back for revenge. Friendly, fast, and they have been training all year."
+    },
+    {
+      "id": "rockhoppers",
+      "name": "The Rock Hoppers",
+      "members": ["Finn", "Rose"],
+      "avatarId": "ghost-rockhoppers",
+      "tagline": "This time WE win the photo finish.",
+      "personality": "Cheerful daredevils from Newfoundland. You beat them by one step last summer. They remember."
+    },
+    {
+      "id": "prairie",
+      "name": "Prairie Thunder",
+      "members": ["Wyatt", "June"],
+      "avatarId": "ghost-prairie",
+      "tagline": "Fast out of the gate!",
+      "personality": "Ranch kids who run first and read the map later. A whole year of practice — at running, not at maps."
+    },
+    {
+      "id": "tide",
+      "name": "The Tide Riders",
+      "members": ["Coco", "Marlow"],
+      "avatarId": "ghost-tide",
+      "tagline": "No rush. We float.",
+      "personality": "Laid-back surfers from Nova Scotia. They found your couch extremely comfortable. Too comfortable."
+    }
+  ],
+  "reactions": {
+    "maple": {
+      "farewell": "Ava: \"Two seasons, and you finally got us twice. Go win it, {team}!\"",
+      "onOtherElimination": "Liam: \"Safe travels, friends. That was a great race.\"",
+      "finale": "Ava: \"We always knew {team} was the team to beat.\""
+    },
+    "rockhoppers": {
+      "farewell": "Finn: \"We climbed every stair in this house. Worth it!\"",
+      "onOtherElimination": "Rose: \"Big hugs. You made us race harder.\"",
+      "finale": "Finn: \"Two photo finishes, two wins for {team}. Unbelievable!\""
+    },
+    "prairie": {
+      "farewell": "Wyatt: \"We were fast. We were just fast in the wrong room!\"",
+      "onOtherElimination": "June: \"Aw, no. Ride safe, you two.\"",
+      "finale": "June: \"We were cheering for {team} from the very first mat.\""
+    },
+    "tide": {
+      "farewell": "Coco: \"That couch was a trap. A comfy, comfy trap.\"",
+      "onOtherElimination": "Marlow: \"That is rough. Catch you back home.\"",
+      "finale": "Marlow: \"Told you. {team} had the good vibes.\""
+    }
+  },
+  "hostName": "Jon",
+  "legs": [
+    {
+      "legId": 0,
+      "isIntro": true,
+      "yassaPlacement": 1,
+      "teamsRemaining": 5,
+      "order": [],
+      "title": "Meet the Teams — The Rematch",
+      "ceremonyLines": [
+        "Welcome back, {team} — the defending CHAMPIONS!",
+        "Four old rivals have come to your house for a rematch.",
+        "Five legs. One trophy. And this time... they know your tricks."
+      ],
+      "intros": [
+        {
+          "teamId": "maple",
+          "tease": "Team Maple led your whole first season. They want that feeling back."
+        },
+        {
+          "teamId": "rockhoppers",
+          "tease": "The Rock Hoppers lost the finale by ONE step. They have not forgotten."
+        },
+        {
+          "teamId": "prairie",
+          "tease": "Prairie Thunder spent a year practising. Running, that is. Not directions."
+        },
+        {
+          "teamId": "tide",
+          "tease": "The Tide Riders just found your couch. This could be trouble for them."
+        }
+      ],
+      "outroLines": [
+        "That is your competition, {team}.",
+        "Five legs, one house, one House Cup.",
+        "The rematch... starts... NOW!"
+      ],
+      "nextLegTease": "Leg 1: mystery bites and spoon counting in the kitchen."
+    },
+    {
+      "legId": 1,
+      "yassaPlacement": 2,
+      "teamsRemaining": 5,
+      "order": ["maple", "yassa", "prairie", "rockhoppers", "tide"],
+      "title": "Kitchen Confidential",
+      "ceremonyLines": [
+        "{team}, you are team number TWO!",
+        "First leg of the rematch and you are right at the front.",
+        "This is a non-elimination leg — everyone races on!",
+        "But look behind you. Nobody is slowing down this season."
+      ],
+      "closeCall": "Team Maple reached the kitchen table forty seconds ahead. Some things never change!",
+      "statsLines": {
+        "heavy": "You banked {points} points and finished every kitchen challenge — a champion's start! But Team Maple set the table forty seconds faster.",
+        "mid": "{done} of {total} challenges done and {points} points banked for your season score. Team Maple was just forty seconds quicker to the mat.",
+        "light": "You banked {points} points for your season score. Team Maple found the spoons faster today — forty seconds faster!"
+      },
+      "nextLegTease": "Next: out the back door for the Backyard Expedition."
+    },
+    {
+      "legId": 2,
+      "yassaPlacement": 4,
+      "teamsRemaining": 5,
+      "eliminatedTeamId": "prairie",
+      "order": ["maple", "rockhoppers", "tide", "yassa", "prairie"],
+      "title": "Backyard Expedition",
+      "ceremonyLines": [
+        "{team}, you are team number four.",
+        "A tough leg. Even champions have hard days.",
+        "One team may be eliminated tonight.",
+        "Shake it off. The second floor is waiting for you."
+      ],
+      "closeCall": "The Tide Riders drifted onto the mat one minute ahead of you. One minute!",
+      "statsLines": {
+        "heavy": "You worked so hard out there — {done} challenges and {points} points, all going to your season score. But three teams found the backyard mat just a little faster.",
+        "mid": "{points} points banked for your season score today. The Tide Riders simply crossed the yard one minute faster.",
+        "light": "You banked {points} points for your season score. The yard was big today, and the other teams found the faster lines through it."
+      },
+      "eliminationLines": [
+        "Prairie Thunder... you were the fastest team out of the kitchen.",
+        "You were also the only team to get lost between two rooms of one house.",
+        "I'm sorry to tell you... you've been eliminated from the race."
+      ],
+      "nextLegTease": "Next: secrets, socks and a detour on the second floor."
+    },
+    {
+      "legId": 3,
+      "yassaPlacement": 1,
+      "teamsRemaining": 4,
+      "eliminatedTeamId": "tide",
+      "order": ["yassa", "maple", "rockhoppers", "tide"],
+      "title": "Secrets of the Second Floor",
+      "ceremonyLines": [
+        "{team}... you are team number ONE!",
+        "From fourth place to first in one leg. THAT is a champion's comeback.",
+        "But one team may be eliminated tonight."
+      ],
+      "closeCall": "Team Maple hit the mat thirty seconds behind you. The Sock Ninja made the difference!",
+      "statsLines": {
+        "heavy": "{points} points and {done} challenges — all going to your season score. And your time on the course was the fastest in the whole house, by thirty seconds!",
+        "mid": "{points} points banked for your season score, plus a first-place finish. Your sock-matching time left Team Maple thirty seconds behind.",
+        "light": "{points} points added to your season score today. Your time on the course was still the best — thirty seconds ahead!"
+      },
+      "eliminationLines": [
+        "Tide Riders... we found you asleep in a blanket fort at the top of the stairs.",
+        "It was, honestly, a very good blanket fort.",
+        "I'm sorry to tell you... you've been eliminated from the race."
+      ],
+      "nextLegTease": "Next: engines on for the Couch 500 in the living room."
+    },
+    {
+      "legId": 4,
+      "yassaPlacement": 2,
+      "teamsRemaining": 3,
+      "eliminatedTeamId": "maple",
+      "order": ["rockhoppers", "yassa", "maple"],
+      "title": "The Couch 500",
+      "ceremonyLines": [
+        "{team}, you are team number two.",
+        "The Rock Hoppers just won their first leg of the season.",
+        "And one team may be eliminated tonight...",
+        "After this mat, only TWO teams race for the House Cup."
+      ],
+      "closeCall": "The Rock Hoppers caught the last bagel twenty seconds before you reached the mat.",
+      "statsLines": {
+        "heavy": "{done} challenges and {points} points — all banked for your season score. The Rock Hoppers' time on the couch course was just twenty seconds quicker.",
+        "mid": "{points} points added to your season score in the arcade leg. The Rock Hoppers edged the course by twenty seconds — they want that rematch.",
+        "light": "{points} points banked for your season score. The Rock Hoppers found the faster time today, and they are hungry for the finale."
+      },
+      "eliminationLines": [
+        "Team Maple... two seasons. Nine mats in first or second place.",
+        "Tonight, for the very first time, you were last.",
+        "I'm sorry to tell you... you've been eliminated from the race."
+      ],
+      "nextLegTease": "The finale is set: {team} versus The Rock Hoppers. Again. Winner takes the House Cup."
+    },
+    {
+      "legId": 5,
+      "yassaPlacement": 1,
+      "teamsRemaining": 2,
+      "order": ["yassa", "rockhoppers"],
+      "title": "THE FINALE: Race for the House Cup",
+      "photoFinishLines": [
+        "Two teams. One driveway. Here they come!",
+        "The Rock Hoppers are right beside you... AGAIN...",
+        "{team} is pulling ahead... AHEAD... YES!"
+      ],
+      "ceremonyLines": [
+        "{team}... you are the WINNERS of The Amazing Race: Home Edition!",
+        "Five legs, one house, and TWO photo finishes against the same team.",
+        "Back-to-back champions. The House Cup is yours!"
+      ],
+      "closeCall": "Another photo finish! You crossed the driveway one step ahead of The Rock Hoppers. Again!",
+      "statsLines": {
+        "heavy": "{points} points and {done} challenges on the final leg — all in your season score. And your time on the course? Fastest one last time — a photo finish!",
+        "mid": "{points} points banked for your season score on the last leg. Your time on the course was exactly enough to win the photo finish.",
+        "light": "{points} points added to your season score, one perfect finish. Champions do not need to be fancy — just first to the driveway."
+      },
+      "recapLines": [
+        "Let's look back at your whole race, {team}.",
+        "Every room, every badge, every photo.",
+        "Back-to-back champions of The Amazing Race!"
+      ],
+      "nextLegTease": "Take the House Cup — and maybe a snack. You earned both."
+    }
+  ]
+}

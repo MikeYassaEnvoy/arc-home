@@ -1,0 +1,22 @@
+{
+  "id": "house",
+  "title": "House Bingo",
+  "cells": [
+    { "label": "The TV remote", "emoji": "📺" },
+    { "label": "A plant", "emoji": "🪴" },
+    { "label": "A family photo", "emoji": "🖼️" },
+    { "label": "Something red", "emoji": "🔴" },
+    { "label": "A clock", "emoji": "🕐" },
+    { "label": "A pillow", "emoji": "🛋️" },
+    { "label": "Somebody's shoes", "emoji": "👟" },
+    { "label": "A lamp", "emoji": "💡" },
+    { "label": "A cup", "emoji": "🥤" },
+    { "label": "A charging cable", "emoji": "🔌" },
+    { "label": "A sunny window", "emoji": "🌞" },
+    { "label": "A cozy blanket", "emoji": "🧣" },
+    { "label": "A drawing or craft you made", "emoji": "🎨" },
+    { "label": "A mirror", "emoji": "🪞" },
+    { "label": "Something that makes music", "emoji": "🎵" },
+    { "label": "A souvenir from a trip", "emoji": "🧸" }
+  ]
+}

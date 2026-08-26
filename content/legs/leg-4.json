@@ -1,0 +1,134 @@
+{
+  "id": 4,
+  "title": "The Couch 500",
+  "date": "Race Day",
+  "routeText": "Upstairs → Living Room",
+  "pitStop": { "hotelName": "The Living Room Mat", "city": "The Living Room" },
+  "steps": [
+    {
+      "id": "l4-s1",
+      "kind": "drive",
+      "location": "Couch Grand Prix — Heat One",
+      "scheduledTime": "Leg 4 · Stop 1",
+      "clueRiddle": "The couch becomes a racing machine.\nSteady thumbs win Heat Fifteen... we mean One!",
+      "clueReveal": "Take the best seat on the couch. Heat One has two games: the rapids and the maze. Beat them both!",
+      "challenges": [
+        {
+          "id": "l4-heat1-canoe",
+          "type": "minigame",
+          "title": "Canoe the Rapids",
+          "instructions": "Drag your finger to steer the canoe. Dodge every rock. Survive sixty seconds!",
+          "minigameId": "canoe-rapids",
+          "points": 10
+        },
+        {
+          "id": "l4-heat1-maze",
+          "type": "minigame",
+          "title": "Maze Escape",
+          "instructions": "Drag your racer to the red exit gate. No cutting through walls. Champions do not give up!",
+          "minigameId": "maze-escape",
+          "config": { "level": 2 },
+          "points": 10
+        },
+        {
+          "id": "l4-heat1-animals",
+          "type": "minigame",
+          "title": "Animal Trivia Encore",
+          "instructions": "The famous animal deck from the trip is back. Twelve questions this time. Can you still beat it?",
+          "minigameId": "trivia",
+          "config": { "deck": "biodome", "count": 12 },
+          "points": 10
+        }
+      ],
+      "funFact": "The canoe game was born on the drive home from Québec City."
+    },
+    {
+      "id": "l4-s2",
+      "kind": "speed-bump",
+      "location": "Pit Crew Snack Service",
+      "scheduledTime": "Leg 4 · Stop 2",
+      "clueRiddle": "Every race team needs a pit crew.\nToday the pit crew is YOU.",
+      "clueReveal": "Speed bump! Make a small snack or drink for every person home. Deliver it all in three minutes.",
+      "challenges": [
+        {
+          "id": "l4-snack-service",
+          "type": "physical",
+          "title": "Pit Crew Snack Run",
+          "instructions": "Start the stopwatch in the kitchen. Bring every team member a snack or a drink. Careful hands — no spills!",
+          "timerSeconds": 180,
+          "photoPrompt": "Snack delivery in action!",
+          "points": 10
+        }
+      ],
+      "funFact": "Real pit crews can change four car tires in two seconds."
+    },
+    {
+      "id": "l4-s3",
+      "kind": "route-marker",
+      "location": "Café Français",
+      "scheduledTime": "Leg 4 · Stop 3",
+      "clueRiddle": "A tiny café just opened at home.\nThe waiter only speaks French!",
+      "clueReveal": "A parent is now a French café waiter. Order your snack in French. Then taste it and judge it like a pro.",
+      "challenges": [
+        {
+          "id": "l4-cafe-french",
+          "type": "speak-french",
+          "title": "Order in French",
+          "instructions": "Practise the phrase on the card twice. Then say it to the café waiter. Do not forget to say merci!",
+          "frenchPhrase": {
+            "fr": "Un biscuit, s'il vous plaît.",
+            "phonetic": "uhn bee-SKWEE, seel voo PLEH",
+            "en": "One cookie, please."
+          },
+          "points": 5
+        },
+        {
+          "id": "l4-cafe-taste",
+          "type": "taste",
+          "title": "Snack Judge",
+          "instructions": "Taste your café order slowly. Think about the crunch and the flavour. Give it your maple leaf rating.",
+          "photoPrompt": "Fancy café customer face!",
+          "points": 5
+        }
+      ],
+      "funFact": "Biscuit means cookie in French. You already knew merci!"
+    },
+    {
+      "id": "l4-s4",
+      "kind": "drive",
+      "location": "Couch Grand Prix — Heat Two",
+      "scheduledTime": "Leg 4 · Stop 4",
+      "clueRiddle": "Back on the couch for the final heat.\nCatch what falls and stamp what you see.",
+      "clueReveal": "Heat Two, back on the couch! Play Bagel Catch, then House Bingo. Then race to the living room mat.",
+      "challenges": [
+        {
+          "id": "l4-heat2-bagel",
+          "type": "minigame",
+          "title": "Bagel Catch Championship",
+          "instructions": "Slide the basket to catch falling bagels. Dodge the pigeons. Beat your best score from the trip!",
+          "minigameId": "bagel-catch",
+          "points": 10
+        },
+        {
+          "id": "l4-heat2-bingo",
+          "type": "minigame",
+          "title": "House Bingo",
+          "instructions": "A brand-new card of things inside the house. Spot each thing and tap its square. Four in a row wins!",
+          "minigameId": "road-bingo",
+          "config": { "card": "house" },
+          "points": 10
+        }
+      ],
+      "funFact": "Montréal bagels are boiled in honey water. You watched it happen!"
+    },
+    {
+      "id": "l4-s5",
+      "kind": "pit-stop",
+      "location": "The Living Room Mat",
+      "scheduledTime": "Leg 4 · Pit Stop",
+      "clueRiddle": "The mat is parked by the biggest seat.\nOne rival's race ends tonight.",
+      "clueReveal": "Race to the mat in the living room. Tonight is HUGE. After this mat, only two teams remain!",
+      "funFact": "The last leg before a finale is always the most dramatic one."
+    }
+  ]
+}
